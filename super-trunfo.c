@@ -57,7 +57,7 @@ int main() {
     printf("👥  População: %d habitantes\n", populacao);
     printf("🌍  Área: %.3f km²\n", area); 
     // O formato %.3f no printf exibe o número com 3 casas decimais após a vírgula
-    printf("🏞️  Pontos Turísticos: %d\n", pontosTuristicos);
+    printf("🏞️   Pontos Turísticos: %d\n", pontosTuristicos);
     printf("📏  Densidade Populacional: %.1f hab/km²\n", densidadePopulacional); 
     // O formato %.1f no printf exibe o número com 1 casa decimail após a vírgula.
     printf("💰  PIB: R$ %.2f (%.0f bilhões aproximadamente)\n", pibConvertido, pib);
