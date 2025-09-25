@@ -44,8 +44,8 @@ int main() {
     // Calcula propriedades
     
     pibConvertido = (double)pib * 1000000000; // Convertendo PIB para reais
-    pibPerCapita = pibConvertido / populacao; // PIB per capita
-    densidadePopulacional = (float)populacao / area;  // Densidade populacional
+    pibPerCapita = pibConvertido / populacao; // Calculo PIB per capita
+    densidadePopulacional = (float)populacao / area;  // Calculo Densidade populacional
 
     // Exibir carta
     printf("\n╔══════════════════════════════════════════════╗\n");
